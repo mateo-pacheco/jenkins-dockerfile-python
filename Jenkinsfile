@@ -4,7 +4,7 @@ pipeline {
         {
             filename 'Dockerfile'
             dir '.'
-            additionalBuildArgs '--tag apasoft/temperatures'
+            additionalBuildArgs '--tag mateo158/temperatures'
             args '-p 9191:80'
         }
         
