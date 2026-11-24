@@ -1,5 +1,5 @@
 # Using an official Python base image
-FROM python:3.10-slim
+FROM python:3.14-slim
 
 LABEL AUTHOR='Apasoft Training'
 # Set the working directory inside the container
